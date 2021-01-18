@@ -1,14 +1,14 @@
 package com.codillity.lessons.timeComplexity;
 
-//With this code got 33%
+//With this code got 44%
 public class FrogImp {
     public int solution(int X, int Y, int D) {
         int jumps = 0;
 
-        do{
+        while (X < Y){
             X += D;
             jumps++;
-        } while (X < Y);
+        }
 
         return jumps;
     }
