@@ -1,7 +1,7 @@
-package com.codillity.lessons;
+package com.codillity.lessons.iterations;
 
 //result with this code 100%
-public class Lesson1 {
+public class binaryGap {
     public int solution(int N) {
         int gap = 0;
 
@@ -13,7 +13,7 @@ public class Lesson1 {
             N = N/2;
         }
 
-        for (int i = 0; N > 0; N /=2) {
+        for (int i = 0; N > 0; N/=2) {
             if (N%2 == 0) {
                 i++;
             } else {
